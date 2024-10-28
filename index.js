@@ -9,4 +9,4 @@ app.listen(PORT, () => {
   console.log(`Server is running on http://localhost:${PORT}`);
 });
 
-MediaSourceHandle.exports = app;
+module.exports = app;
